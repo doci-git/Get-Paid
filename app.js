@@ -1,11 +1,11 @@
 
 
 function hide () {
-    // primo avviso in data 
+    // primo avviso in data // first warning
     const middleDate = new Date ('11/20/2022');
-    // secondo e ultimo avviso 
+    // secondo e ultimo avviso // second and last warnig
     const futureDate = new Date('11/29/2022');
-    // data attuale 
+    // data attuale // current date
     const presentDate = new Date();
     
     if (middleDate <= presentDate) {
